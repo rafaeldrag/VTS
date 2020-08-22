@@ -22860,12 +22860,12 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   text-align: center;
   padding: 0 45px;
   font-size: 16px;
-  border: 1px solid #967144;
-  color: #967144;
+  border: 1px solid black;
+  color: black;
 }
 
 .tp-banner-container .link-1 a {
-  color: #967144;
+  color: black;
   font-weight: 700;
 }
 
@@ -23041,7 +23041,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 }
 
 .tp-banner-container .color-brand {
-  color: #967144;
+  color: black;
 }
 
 .tp-banner-container .color-black {
