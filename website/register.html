@@ -10,7 +10,7 @@
         <link rel="shortcut icon" href="assets/images/favicon.png" />
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500,700,300' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
-        <title>Login</title>
+        <title>Resgister</title>
     </head>
     <body>
     <div class="awe-page-loading">
@@ -44,8 +44,8 @@
                     <div class="container">
                     <div class="box">
                         <p class="icon-menu-mobile"><i class="fa fa-bars" ></i></p>
-                        <div class="logo"><a href="#" title="Uno">
-                        <img src="assets/images/logo.png" alt="images">
+                        <div class="logo"><a href="home.html" title="Uno">
+                        <img style="height: 100px;" src="assets/images/logo.png" alt="images">
                         </a></div>
                         <div class="logo-mobile"><a href="#" title="Xanadu"><img src="assets/images/logo.png" alt="Xanadu-Logo"></a></div>
 
@@ -104,7 +104,7 @@
                                                 <li><a href="#" title="$"><span class="fa fa-cny"></span></a></li>
                                             </ul>
                                             <ul class="infor">
-                                                <li><span class="fa fa-unlock-alt"></span><a id="openLogin" href="#" title="login">Login / Register</a></li>
+                                                <li><span class="fa fa-unlock-alt"></span><a id="openLogin" href="login.html" title="login">Login</a></li>
                                                 <li><span class="fa fa-user"></span><a href="#" title="My Account">My Account</a></li>
                                                 <li><span class="fa fa-heart"></span><a href="#" title="My Wishlist">My Wishlist</a></li>
                                                 <li><span class="fa fa-check-circle"></span><a href="#" title="Checkout">Checkout</a></li>
@@ -120,7 +120,7 @@
                         <nav class="mega-menu">
                         <!-- Brand and toggle get grouped for better mobile display -->
                           <ul class="nav navbar-nav" id="navbar">
-                            <li class="level1 active dropdown"><a href="#" title="Home">Home</a>
+                            <li class="level1 active dropdown"><a href="home.html" title="Home">Home</a>
                                 <ul class="menu-level-1 dropdown-menu">
                                    <li class="level2"><a href="home_v1.html" title="Home 1">Home 1</a></li>
                                     <li class="level2"><a href="home_v2.html" title="Home 2">Home 2</a></li>
@@ -266,10 +266,10 @@
     </header><!-- /header -->
         <div class="container">
             <div class="banner-header banner-lbook3 space-30">
-                <img src="assets/images/banner-mansory.jpg" alt="Banner-header">
+                <img src="assets/images/caju.jpg" alt="Banner-header">
                 <div class="text">
-                    <h3>Login/Register</h3>
-                    <p><a href="#" title="Home">Home</a><i class="fa fa-caret-right"></i>Login/Register</p>
+                    <h3>Register</h3>
+                    <p><a href="home.html" title="Home">Home</a><i class="fa fa-caret-right"></i>Register</p>
                 </div>
             </div>
         </div>
@@ -277,38 +277,7 @@
         <div class="container container-ver2">
             <div class="page-login box space-50">
                 <div class="row">
-                    <div class="col-md-6 sign-in space-30">
-                        <h3>sign in</h3>
-                        <p>Hello, welcome to your account.</p>
-                        <div class="social space-30 box">
-                            <a class="float-left" href="#" title="facebook">
-                                <i class="fa fa-facebook"></i>
-                                SIGN IN WITH FACEBOOK
-                            </a>
-                            <a class="float-right" href="#" title="TWITTER">
-                                <i class="fa fa-twitter"></i>
-                                SIGN IN WITH TWITTER
-                            </a>
-                        </div>
-                        <!-- End social -->
-                        <form class="form-horizontal" method="POST">
-                            <div class="group box space-20">
-                                <label class="control-label" for="inputemail">EMAIL ADDRESS *</label>
-                                <input class="form-control" type="text" placeholder="Your email" id="inputemail">
-                            </div>
-                            <div class="group box">
-                                <label class="control-label" for="inputemail">PASSWORD *</label>
-                                <input class="form-control" type="text" placeholder="Password" id="inputpass"> 
-                            </div>
-                            <div class="remember">
-                                <input id="remeber" type="checkbox" name="check" value="remeber">
-                                <label for="remeber" class="label-check">remember me!</label>
-                                <a class="help" href="#" title="help ?">Fogot your password?</a>   
-                            </div>           
-                            <button type="submit" class="link-v1 rt">LOGIN NOW</button>
-                        </form>
-                        <!-- End form -->
-                    </div>
+                    
                     <!-- End col-md-6 -->
                     <div class="col-md-6">
                         <div class="register box space-50">
@@ -320,76 +289,20 @@
                                     <input class="form-control" type="text" placeholder="Your email" id="inputemailres">
                                 </div>
                                 <button type="submit" class="link-v1 rt">Sign Up</button>
-                            </form>
-                        </div>
-                        <!-- End register -->
-                        <div class="sigg-to-day box">
-                            <h3>SIGN UP TODAY</h3>
-                            <form class="form-horizontal" method="POST">
-                                <div class="checkbox">
-                                    <input id="check1" type="checkbox" name="check" value="check1">
-                                    <label class="label-check" for="check1">Speed your way through the checkout.</label>
-                                    <input id="check2" type="checkbox" name="check" value="check2">
-                                    <label class="label-check" for="check2">Track your orders easily.</label>
-                                    <input id="check3" type="checkbox" name="check" value="check3">
-                                    <label class="label-check" for="check3">Keep a record of all purchases.</label>
+                                <div class="remember">
+                                        <input id="remeber" type="checkbox" name="check" value="remeber">
+                                        <label for="remeber" class="label-check">remember me!</label>
+                                        <a class="help" href="login.html" title="help ?">Já possui uma conta?</a>   
                                 </div>
                             </form>
                         </div>
+                        <!-- End register -->
                     </div>
                     <!-- End col-md-6 -->
                 </div>
+                
             </div>
         </div>
-        <div class="container">
-            <div class="newsletter-bottom center">
-                <div class="items">
-                    <img class="img-responsive" src="assets/images/newsletter-bottom.jpg" alt="Newsllter">
-                    <div class="text">
-                        <h3>Sign Up Special Promotions</h3>
-                        <p>Get exclusive deals you wont find anywhere else straight to your inbox!</p>
-                        <form action="#" method="get" accept-charset="utf-8">
-                            <input type="text" onblur="if (this.value == '') {this.value = 'Enter your email...';}" onfocus="if(this.value != '') {this.value = '';}" value="Enter your email..." class="input-text required-entry validate-email" title="Sign up for our newsletter" id="newsletter" name="email"> 
-                            <button class="button button1 hover-white" title="Subscribe" type="submit">Join<i class="link-icon-white"></i></button>
-                        </form>
-                    </div>
-                     
-                </div>
-            </div>
-        </div>
-        <!-- End newsletter -->
-    <footer id="footer" class="footer-v1">         
-      <div class="container">
-            <div class="footer-top">
-                <div class="logo-footer">
-                    <a href="#" title="Logo">
-                        <img src="assets/images/logo.png" alt="Logo">
-                    </a>
-                    <p>&copy; Xanadu 2016 | Site by EngoCreative</p>
-                </div>
-                <div class="menu-footer">
-                    <ul>
-                        <li><a href="#" title="About Us">About Us</a></li>
-                        <li><a href="#" title="Advertise">Advertise</a></li>
-                        <li><a href="#" title="Press">Press</a></li>
-                        <li><a href="#" title="Contact Us">Contact Us</a></li>
-                        <li><a href="#" title="Store">Store</a></li>
-                        <li><a href="#" title="Careers">Careers</a></li>
-                    </ul>    
-                </div>
-                <!-- End menu-footer -->
-                <div class="social">
-                    <a class="active" title="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                    <a title="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                    <a title="youtube" href="#"><i class="fa fa-youtube-play"></i></a>
-                    <a title="google plus" href="#"><i class="fa fa-google-plus"></i></a>
-                </div>
-                <!-- End social -->
-            </div>
-            <!-- End footer-top -->
-      </div>
-      <!-- End container -->
-    </footer>
     </div>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
